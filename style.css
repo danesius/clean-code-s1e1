@@ -37,19 +37,24 @@
 .task-row {
     display: flex;
 }
-ul {
+.list {
     margin: 0;
     padding: 0px;
 }
-li,
-h3 {
+.subheader,
+.list__elem {
     list-style: none;
 }
-input,
-button{
+.input,
+.task-input,
+.button,
+.task-item__edit-button,
+.task-item__delete-button{
     outline: none;
 }
-button {
+.button,
+.task-item__edit-button,
+.task-item__delete-button {
     background: none;
     border: 0px;
     color: #888;
@@ -58,11 +63,13 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-button:hover {
+.button:hover,
+.task-item__edit-button:hover,
+.task-item__delete-button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
+.subheader,
 label[for='new-task'] {
     color: #333;
     font-weight: 700;
