@@ -4,22 +4,22 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
-.matrix {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.matrix__image {
+.header__image {
     width: 100%;
 }
-.matrix .matrix__link {
+.header .header__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.matrix { 
+.header { 
   text-align: center;
 }
 
